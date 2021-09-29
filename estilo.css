@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: whitesmoke;
+    padding: auto;
+    margin: auto;
+}
+
+.cabeçalho{
+    text-align: center;
+    padding: 90px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-shadow: 2px 2px grey;
+}
+
+/* Menu */
+
+.menu{
+    background-color: dimgray;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    justify-content: center;
+}
+
+.menu a:hover{
+    background-image: linear-gradient(dimgray, white);
+    color: black;
+}
+
+/* Conteudo do corpo */
+
+.linha{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.sec1{
+    background-color: red;
+    color: white;
+    flex: 50%;
+    padding: 110px;
+}
+
+.sec2{
+    background-color: blue;
+    color: white;
+    flex: 50%;
+    padding: 110px;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    background-color: tomato;
+}
+
+.esquerda div{
+    background-color:coral;
+    color: black;
+    margin: 10px;
+    width: 20px;
+}
+
+.direita{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+
+.direita div{
+    background-color: cyan;
+    color: black;
+    margin: 10px;
+    width: 20px;
+}
